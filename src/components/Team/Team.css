@@ -1,0 +1,25 @@
+.allBox{
+    display:flex;
+}
+.boxStyle{
+    border: 1px solid lightgray;
+    padding: 15px;
+    margin: 10px;
+    background-color:  rgb(93, 108, 204);
+    width: 350px;
+    height: 320px;
+    border-radius: 6px;
+    float: left;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+.boxStyle:hover{
+    background-color:rgb(143, 143, 224)
+}
+.picStyle{
+    width: 140px;
+    height: 140px;
+}
+.teamTitle{
+    color: white;
+}

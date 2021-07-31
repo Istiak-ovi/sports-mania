@@ -1,0 +1,22 @@
+.detailsTeam{
+    background-color: #847cb9;
+    margin-top: 25px;
+    /* height: 300px; */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.inner-img{
+    height: 250px;
+    width: 100%;
+    /* width: 300px; */
+}
+.textDescription{
+    text-align: justify;
+    color: #5f5c5c;;
+    padding: 10px;
+}
+.icon-style a{
+    font-size:50px;
+    margin: 10px;
+}
