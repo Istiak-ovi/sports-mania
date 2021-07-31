@@ -6,10 +6,10 @@ const Footer = (props) => {
     const {strFacebook, srtTwitter, strYoutube, strRSS} = props.team;
     return (
         <div>
-            <a target="_blank" href={`https://${strFacebook}`}><FontAwesomeIcon icon={faFacebookSquare} /></a>
-            <a target="_blank" href={`https://${srtTwitter}`}><FontAwesomeIcon icon={faTwitterSquare} /></a>
-            <a target="_blank" href={`https://${strYoutube}`}><FontAwesomeIcon icon={faYoutubeSquare} /></a>
-            <a target="_blank" href={`https://${strRSS}`}><FontAwesomeIcon icon={faRssSquare} /></a>
+            <a target="_blank" rel="noreferrer" href={`https://${strFacebook}`}><FontAwesomeIcon icon={faFacebookSquare} /></a>
+            <a target="_blank" rel="noreferrer" href={`https://${srtTwitter}`}><FontAwesomeIcon icon={faTwitterSquare} /></a>
+            <a target="_blank" rel="noreferrer" href={`https://${strYoutube}`}><FontAwesomeIcon icon={faYoutubeSquare} /></a>
+            <a target="_blank" rel="noreferrer" href={`https://${strRSS}`}><FontAwesomeIcon icon={faRssSquare} /></a>
         </div>
     );
 };
